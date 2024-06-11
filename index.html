@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="showCaptcha()">
+    <div class="login">
+        <h3>Loan Appliaction Form</h3>
+        <label for="">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email"> Email:</label>
+        <input type="email" name="email" placeholder="abc001@gmail.com" id="email" required>
+        <br><br>
+        <label for="pan">PAN:</label>
+        <input type="text" id="pan" maxlength="10">
+        <br><br>
+        <label for="loanAmount">Loan Amount:</label>
+        <input type="number" id="loanAmount" name="loanAmount" max="999999999" required>
+        <span id="loanAmountWords"></span>
+        <br><br>
+        <label for="">Captcha:<span id="captcha"></span> </label>
+        <input type="text" id="input1">
+        <br><br>
+        <button onclick="validate()">Submit</button>
+       
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.login {
+
+    width: 500px;
+    height: 400px;
+    background-image: url('blue.webp');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+input {
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+button {
+
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
